@@ -1,14 +1,13 @@
 import { FaFacebook, FaInstagram, FaLinkedin, FaLocationDot, FaSquarePhone, FaTwitter } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
-import { FaFacebookSquare } from "react-icons/fa";
 
 const Banner = () => {
     return (
         <div className=" bg-base-200">
-            <div className="max-w-6xl mx-auto flex flex-col lg:flex-row-reverse items-center justify-between">
+            <div className="h-[500px] max-w-6xl mx-auto flex flex-col lg:flex-row-reverse items-center justify-between">
                 <img src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg" className="  rounded-lg shadow-2xl" />
                 <div className="space-y-2">
-                    <h1 className="text-6xl font-bold">HASANUR RAHMAN</h1>
+                    <h1 className="text-6xl font-bold">Hasanur Rahman</h1>
                     <h1 className="text-3xl font-bold"><span className="text-red-400">M</span><span className="text-blue-400">E</span><span className="text-green-400">R</span><span className="text-yellow-400">N</span> Stack Developer</h1>
                     <div className="py-6">
                         <div className="flex items-center gap-2">
