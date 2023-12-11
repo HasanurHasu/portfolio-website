@@ -24,11 +24,11 @@ const Banner = () => {
                         </div>
                     </div>
                     <div className="flex items-center gap-3">
-                        <a href="https://www.facebook.com/hasanurhasu121"><FaFacebook className=" text-2xl" /></a>
-                        <a href="https://www.facebook.com/hasanurhasu121"><FaInstagram className=" text-2xl" /></a>
-                        <a href="https://www.facebook.com/hasanurhasu121"><FaTwitter className=" text-2xl" /></a>
-                        <a href="https://www.facebook.com/hasanurhasu121"><FaLinkedin className=" text-2xl" /></a>
-                        <a href="https://www.facebook.com/hasanurhasu121"><FaTelegram className=" text-2xl" /></a>
+                        <a href="https://www.facebook.com/hasanurhasu121" target="_blank"><FaFacebook className=" text-2xl" /></a>
+                        <a href="https://www.facebook.com/hasanurhasu121" target="_blank"><FaInstagram className=" text-2xl" /></a>
+                        <a href="https://www.facebook.com/hasanurhasu121" target="_blank"><FaTwitter className=" text-2xl" /></a>
+                        <a href="https://www.facebook.com/hasanurhasu121" target="_blank"><FaLinkedin className=" text-2xl" /></a>
+                        <a href="https://www.facebook.com/hasanurhasu121" target="_blank"><FaTelegram className=" text-2xl" /></a>
                     </div>
                     <div>
                         <button className="bg-blue-500 py-2 px-6 text-white font-medium rounded my-4">Download CV</button>
