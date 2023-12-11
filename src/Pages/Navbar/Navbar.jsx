@@ -3,7 +3,7 @@ import './Navbar.css'
 
 
 const Navbar = () => {
-    const links = <div className="flex justify-center gap-5 items-center font-medium">
+    const links = <div className="flex text-lg justify-center gap-5 items-center font-medium">
         <NavLink to='/'>Home</NavLink>
         <NavLink to='/about'>About</NavLink>
         <NavLink to='/contact'>Contact</NavLink>
@@ -33,7 +33,6 @@ const Navbar = () => {
             <div className="navbar-end lg:hidden">
                 <a className="text-4xl font-bold">Hasanur</a>
             </div>
-
         </div>
     );
 };
