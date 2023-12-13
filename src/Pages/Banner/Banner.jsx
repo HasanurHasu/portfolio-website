@@ -1,10 +1,13 @@
 import { FaFacebook, FaInstagram, FaLinkedin, FaLocationDot, FaSquarePhone, FaTelegram, FaTwitter } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import photo from '../../assets/man.png'
+import 'aos/dist/aos.css';
 
 const Banner = () => {
     return (
-        <div className=" bg-base-200">
+        <div data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine" className=" bg-base-200">
             <div className="h-[500px] max-w-5xl mx-auto flex flex-col lg:flex-row-reverse items-center justify-between">
                 <img src={photo} className="w-[600px]" />
                 <div className="space-y-2">

@@ -1,8 +1,12 @@
 import photo from '../../assets/photo.png'
+import 'aos/dist/aos.css';
 
 const About = () => {
+
     return (
-        <div className="max-w-5xl mx-auto my-6">
+        <div data-aos="fade-left"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine" className="max-w-5xl mx-auto my-6">
             <h1 className="text-3xl text-blue-500 font-bold">About</h1>
             <p className="text-4xl">A little about me.</p>
             <div className="flex items-center mt-6">

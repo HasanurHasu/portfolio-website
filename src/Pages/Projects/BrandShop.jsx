@@ -1,8 +1,11 @@
 import brand from '../../assets/brand.png'
+import 'aos/dist/aos.css';
 
 const BrandShop = () => {
     return (
-        <div className='bg-base-200'>
+        <div data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine" className='bg-base-200'>
             <div className='max-w-5xl mx-auto py-4'>
                 <div className='grid grid-cols-2 gap-5'>
                     <div className='flex justify-center items-center' style={{ backgroundColor: 'rgba(33, 158, 188, 0.2)' }}>
